@@ -15,8 +15,8 @@
 *	cafe.cascade();
 */
 
-function Cafe(){
-	this.fns = arguments;
+function Cafe(/*array:*/fns){
+	this.fns = fns;
 };
 
 Cafe.prototype = {	
